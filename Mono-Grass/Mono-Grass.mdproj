@@ -389,5 +389,6 @@
     <None Include="..\images\mono-hispano-logo.png">
       <Link>images\mono-hispano-logo.png</Link>
     </None>
+    <None Include="header-buddypress.php" />
   </ItemGroup>
 </Project>
