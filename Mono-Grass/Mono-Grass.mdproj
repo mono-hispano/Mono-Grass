@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BEF12C97-BD3E-4A46-8C91-20EE3CF478F4}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="fonts\" />
+    <Folder Include="groups\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+    <Folder Include="languages\" />
+    <Folder Include="members\" />
+    <Folder Include="pack\" />
+    <Folder Include="src\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\css\960.css">
+      <Link>css\960.css</Link>
+    </None>
+    <None Include="..\css\fonts.css">
+      <Link>css\fonts.css</Link>
+    </None>
+    <None Include="..\css\home.css">
+      <Link>css\home.css</Link>
+    </None>
+    <None Include="..\css\news.css">
+      <Link>css\news.css</Link>
+    </None>
+    <None Include="..\css\project.css">
+      <Link>css\project.css</Link>
+    </None>
+    <None Include="..\css\reset.css">
+      <Link>css\reset.css</Link>
+    </None>
+    <None Include="..\css\text.css">
+      <Link>css\text.css</Link>
+    </None>
+    <None Include="..\fonts\Cantarell-Bold.otf">
+      <Link>fonts\Cantarell-Bold.otf</Link>
+    </None>
+    <None Include="..\fonts\Cantarell-Regular.otf">
+      <Link>fonts\Cantarell-Regular.otf</Link>
+    </None>
+    <None Include="..\groups\single\home.php">
+      <Link>groups\single\home.php</Link>
+    </None>
+    <None Include="..\groups\single\plugins.php">
+      <Link>members\single\plugins.php</Link>
+    </None>
+    <None Include="..\images\12_col.gif">
+      <Link>images\12_col.gif</Link>
+    </None>
+    <None Include="..\images\16_col.gif">
+      <Link>images\16_col.gif</Link>
+    </None>
+    <None Include="..\images\action_box-bg.png">
+      <Link>images\action_box-bg.png</Link>
+    </None>
+    <None Include="..\images\action_button-bg.png">
+      <Link>images\action_button-bg.png</Link>
+    </None>
+    <None Include="..\images\categories_list-arrow.png">
+      <Link>images\categories_list-arrow.png</Link>
+    </None>
+    <None Include="..\images\favicon.png">
+      <Link>images\favicon.png</Link>
+    </None>
+    <None Include="..\images\focus-bg.png">
+      <Link>images\focus-bg.png</Link>
+    </None>
+    <None Include="..\images\footer-map.png">
+      <Link>images\footer-map.png</Link>
+    </None>
+    <None Include="..\images\gnome-logo.png">
+      <Link>images\gnome-logo.png</Link>
+    </None>
+    <None Include="..\images\go-next.png">
+      <Link>images\go-next.png</Link>
+    </None>
+    <None Include="..\images\go-previous.png">
+      <Link>images\go-previous.png</Link>
+    </None>
+    <None Include="..\images\grass.png">
+      <Link>images\grass.png</Link>
+    </None>
+    <None Include="..\images\hr-shadow.png">
+      <Link>images\hr-shadow.png</Link>
+    </None>
+    <None Include="..\images\html-bg.png">
+      <Link>images\html-bg.png</Link>
+    </None>
+    <None Include="..\images\language-selector-bg.png">
+      <Link>images\language-selector-bg.png</Link>
+    </None>
+    <None Include="..\images\language-selector-wanda-bg.png">
+      <Link>images\language-selector-wanda-bg.png</Link>
+    </None>
+    <None Include="..\images\more-arrow.png">
+      <Link>images\more-arrow.png</Link>
+    </None>
+    <None Include="..\images\search-icon.png">
+      <Link>images\search-icon.png</Link>
+    </None>
+    <None Include="..\images\top_bar-bg.png">
+      <Link>images\top_bar-bg.png</Link>
+    </None>
+    <None Include="..\images\top_bar-item-bg.png">
+      <Link>images\top_bar-item-bg.png</Link>
+    </None>
+    <None Include="..\images\top_bar-item-home.png">
+      <Link>images\top_bar-item-home.png</Link>
+    </None>
+    <None Include="..\images\top_bar-item-hover-bg.png">
+      <Link>images\top_bar-item-hover-bg.png</Link>
+    </None>
+    <None Include="..\images\video-play.png">
+      <Link>images\video-play.png</Link>
+    </None>
+    <None Include="..\images\applications\application-default-icon-186x186.png">
+      <Link>images\applications\application-default-icon-186x186.png</Link>
+    </None>
+    <None Include="..\images\applications\application-default-icon-256x256.png">
+      <Link>images\applications\application-default-icon-256x256.png</Link>
+    </None>
+    <None Include="..\images\applications\application-default-icon-64x64.png">
+      <Link>images\applications\application-default-icon-64x64.png</Link>
+    </None>
+    <None Include="..\images\applications\download_button-icon.png">
+      <Link>images\applications\download_button-icon.png</Link>
+    </None>
+    <None Include="..\images\applications\featured-icon.png">
+      <Link>images\applications\featured-icon.png</Link>
+    </None>
+    <None Include="..\images\applications\install-debian.png">
+      <Link>images\applications\install-debian.png</Link>
+    </None>
+    <None Include="..\images\applications\install-default.png">
+      <Link>images\applications\install-default.png</Link>
+    </None>
+    <None Include="..\images\applications\install-fedora.png">
+      <Link>images\applications\install-fedora.png</Link>
+    </None>
+    <None Include="..\images\applications\install-gnome.png">
+      <Link>images\applications\install-gnome.png</Link>
+    </None>
+    <None Include="..\images\applications\install-macosx.png">
+      <Link>images\applications\install-macosx.png</Link>
+    </None>
+    <None Include="..\images\applications\install-opensuse.png">
+      <Link>images\applications\install-opensuse.png</Link>
+    </None>
+    <None Include="..\images\applications\install-ubuntu.png">
+      <Link>images\applications\install-ubuntu.png</Link>
+    </None>
+    <None Include="..\images\applications\install-windows.png">
+      <Link>images\applications\install-windows.png</Link>
+    </None>
+    <None Include="..\images\applications\screenshots-slider-button.png">
+      <Link>images\applications\screenshots-slider-button.png</Link>
+    </None>
+    <None Include="..\images\footer_arts\404.png">
+      <Link>images\footer_arts\404.png</Link>
+    </None>
+    <None Include="..\images\footer_arts\applications.png">
+      <Link>images\footer_arts\applications.png</Link>
+    </None>
+    <None Include="..\images\footer_arts\art-2.png">
+      <Link>images\footer_arts\art-2.png</Link>
+    </None>
+    <None Include="..\images\footer_arts\art.png">
+      <Link>images\footer_arts\art.png</Link>
+    </None>
+    <None Include="..\images\footer_arts\community.png">
+      <Link>images\footer_arts\community.png</Link>
+    </None>
+    <None Include="..\images\footer_arts\default.png">
+      <Link>images\footer_arts\default.png</Link>
+    </None>
+    <None Include="..\images\footer_arts\i18n.png">
+      <Link>images\footer_arts\i18n.png</Link>
+    </None>
+    <None Include="..\images\footer_arts\readme.txt">
+      <Link>images\footer_arts\readme.txt</Link>
+    </None>
+    <None Include="..\images\footer_arts\search.png">
+      <Link>images\footer_arts\search.png</Link>
+    </None>
+    <None Include="..\images\footer_arts\search_no-results.png">
+      <Link>images\footer_arts\search_no-results.png</Link>
+    </None>
+    <None Include="..\images\footer_arts\support.png">
+      <Link>images\footer_arts\support.png</Link>
+    </None>
+    <None Include="..\images\home\banner-shadow.png">
+      <Link>images\home\banner-shadow.png</Link>
+    </None>
+    <None Include="..\images\social_networks\facebook.png">
+      <Link>images\social_networks\facebook.png</Link>
+    </None>
+    <None Include="..\images\social_networks\identica.png">
+      <Link>images\social_networks\identica.png</Link>
+    </None>
+    <None Include="..\images\social_networks\twitter.png">
+      <Link>images\social_networks\twitter.png</Link>
+    </None>
+    <None Include="..\js\jquery-1.4.2.min.js">
+      <Link>js\jquery-1.4.2.min.js</Link>
+    </None>
+    <None Include="..\js\jquery.easing-1.3.pack.js">
+      <Link>js\jquery.easing-1.3.pack.js</Link>
+    </None>
+    <None Include="..\js\project.js">
+      <Link>js\project.js</Link>
+    </None>
+    <None Include="..\js\template.js">
+      <Link>js\template.js</Link>
+    </None>
+    <None Include="..\languages\gnome-grass.pot">
+      <Link>languages\gnome-grass.pot</Link>
+    </None>
+    <None Include="..\members\single\home.php">
+      <Link>members\single\home.php</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\blank.gif">
+      <Link>pack\fancybox-1.3.4\blank.gif</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_close.png">
+      <Link>pack\fancybox-1.3.4\fancy_close.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_loading.png">
+      <Link>pack\fancybox-1.3.4\fancy_loading.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_nav_left.png">
+      <Link>pack\fancybox-1.3.4\fancy_nav_left.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_nav_right.png">
+      <Link>pack\fancybox-1.3.4\fancy_nav_right.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_shadow_e.png">
+      <Link>pack\fancybox-1.3.4\fancy_shadow_e.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_shadow_n.png">
+      <Link>pack\fancybox-1.3.4\fancy_shadow_n.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_shadow_ne.png">
+      <Link>pack\fancybox-1.3.4\fancy_shadow_ne.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_shadow_nw.png">
+      <Link>pack\fancybox-1.3.4\fancy_shadow_nw.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_shadow_s.png">
+      <Link>pack\fancybox-1.3.4\fancy_shadow_s.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_shadow_se.png">
+      <Link>pack\fancybox-1.3.4\fancy_shadow_se.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_shadow_sw.png">
+      <Link>pack\fancybox-1.3.4\fancy_shadow_sw.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_shadow_w.png">
+      <Link>pack\fancybox-1.3.4\fancy_shadow_w.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_title_left.png">
+      <Link>pack\fancybox-1.3.4\fancy_title_left.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_title_main.png">
+      <Link>pack\fancybox-1.3.4\fancy_title_main.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_title_over.png">
+      <Link>pack\fancybox-1.3.4\fancy_title_over.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancy_title_right.png">
+      <Link>pack\fancybox-1.3.4\fancy_title_right.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancybox-x.png">
+      <Link>pack\fancybox-1.3.4\fancybox-x.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancybox-y.png">
+      <Link>pack\fancybox-1.3.4\fancybox-y.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\fancybox.png">
+      <Link>pack\fancybox-1.3.4\fancybox.png</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\jquery.easing-1.3.pack.js">
+      <Link>pack\fancybox-1.3.4\jquery.easing-1.3.pack.js</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\jquery.fancybox-1.3.4.css">
+      <Link>pack\fancybox-1.3.4\jquery.fancybox-1.3.4.css</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\jquery.fancybox-1.3.4.js">
+      <Link>pack\fancybox-1.3.4\jquery.fancybox-1.3.4.js</Link>
+    </None>
+    <None Include="..\pack\fancybox-1.3.4\jquery.fancybox-1.3.4.pack.js">
+      <Link>pack\fancybox-1.3.4\jquery.fancybox-1.3.4.pack.js</Link>
+    </None>
+    <None Include="..\pack\jcarousel\jquery.jcarousel.min.js">
+      <Link>pack\jcarousel\jquery.jcarousel.min.js</Link>
+    </None>
+    <None Include="..\src\projects.png">
+      <Link>src\projects.png</Link>
+    </None>
+    <None Include="..\404.php">
+      <Link>404.php</Link>
+    </None>
+    <None Include="..\applications_sidebar.php">
+      <Link>applications_sidebar.php</Link>
+    </None>
+    <None Include="..\AUTHORS">
+      <Link>AUTHORS</Link>
+    </None>
+    <None Include="..\editor_style.css">
+      <Link>editor_style.css</Link>
+    </None>
+    <None Include="..\footer.php">
+      <Link>footer.php</Link>
+    </None>
+    <None Include="..\footer_art.php">
+      <Link>footer_art.php</Link>
+    </None>
+    <None Include="..\footer_language-selector.php">
+      <Link>footer_language-selector.php</Link>
+    </None>
+    <None Include="..\functions.php">
+      <Link>functions.php</Link>
+    </None>
+    <None Include="..\header.php">
+      <Link>header.php</Link>
+    </None>
+    <None Include="..\index.php">
+      <Link>index.php</Link>
+    </None>
+    <None Include="..\news.php">
+      <Link>news.php</Link>
+    </None>
+    <None Include="..\news_sidebar.php">
+      <Link>news_sidebar.php</Link>
+    </None>
+    <None Include="..\one-column.php">
+      <Link>one-column.php</Link>
+    </None>
+    <None Include="..\one-column-without-title.php">
+      <Link>one-column-without-title.php</Link>
+    </None>
+    <None Include="..\one-column-with-submenu.php">
+      <Link>one-column-with-submenu.php</Link>
+    </None>
+    <None Include="..\page-applications.php">
+      <Link>page-applications.php</Link>
+    </None>
+    <None Include="..\page-home.php">
+      <Link>page-home.php</Link>
+    </None>
+    <None Include="..\page-news.php">
+      <Link>page-news.php</Link>
+    </None>
+    <None Include="..\page-press.php">
+      <Link>page-press.php</Link>
+    </None>
+    <None Include="..\project.php">
+      <Link>project.php</Link>
+    </None>
+    <None Include="..\screenshot.png">
+      <Link>screenshot.png</Link>
+    </None>
+    <None Include="..\search.php">
+      <Link>search.php</Link>
+    </None>
+    <None Include="..\single.php">
+      <Link>single.php</Link>
+    </None>
+    <None Include="..\style.css">
+      <Link>style.css</Link>
+    </None>
+    <None Include="..\taxonomy-project_category.php">
+      <Link>taxonomy-project_category.php</Link>
+    </None>
+    <None Include="..\TODO">
+      <Link>TODO</Link>
+    </None>
+    <None Include="..\images\mono-hispano-logo.png">
+      <Link>images\mono-hispano-logo.png</Link>
+    </None>
+  </ItemGroup>
+</Project>
