@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="members/single/home.php">
+    <Files>
+      <File FileName="style.css" Line="5" Column="64" />
+      <File FileName="index.php" Line="20" Column="1" />
+      <File FileName="groups/single/home.php" Line="11" Column="8" />
+      <File FileName="groups/single/plugins.php" Line="11" Column="8" />
+      <File FileName="members/single/home.php" Line="11" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
