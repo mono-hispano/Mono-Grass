@@ -390,5 +390,6 @@
       <Link>images\mono-hispano-logo.png</Link>
     </None>
     <None Include="header-buddypress.php" />
+    <None Include="footer-buddypress.php" />
   </ItemGroup>
 </Project>
